@@ -11,16 +11,29 @@ namespace GalaxyGeneratorConsole
 		{
 			DataLoader.Get().Initialize();
 
+			var now = DateTime.Now;
+
 			var galaxy = new List<StarSystem>();
 
-			// Generate 100 starsystems
-			for (int i = 0; i < 100; i++)
+			Console.WriteLine("Generate 10000 starsystems: ");
+			for (int i = 0; i < 10000; i++)
 			{
-				galaxy.Add(new StarSystem(true));
+				var system = new StarSystem(true);
+				galaxy.Add(system);
+				Console.WriteLine("Generated starsystem {0} ({1})", i, system.SystemName);
+
 			}
 
+			var duplicateKeys = galaxy.GroupBy(x => x)
+										.Where(group => group.Count() > 1)
+										.Select(group => group.Key);
+
+			Console.WriteLine("Found {0} duplicates", duplicateKeys.Count());
+
+			var span = DateTime.Now - now;
+
 			Console.WriteLine();
-			Console.WriteLine("Done...");
+			Console.WriteLine("Done in " + span);
 			Console.ReadKey();
 		}
 	}

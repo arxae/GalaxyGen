@@ -28,6 +28,7 @@ namespace GalaxyGeneratorConsole
 		public GeneratorVariables GeneratorVariables;
 
 		private List<string> _usedSystemNames;
+		private int _systemNameGenerationAttemps;
 
 		public void Initialize()
 		{
@@ -51,14 +52,28 @@ namespace GalaxyGeneratorConsole
 
 		public string PickUniqueSystemName()
 		{
-			string systemname = RantEngine.Do("<space-system>");
+			System.Diagnostics.Debug.WriteLine("[System Name] Attempt " + _systemNameGenerationAttemps);
+			string systemname = string.Empty;
+
+			if (_systemNameGenerationAttemps > 10)
+			{
+				systemname = RantEngine.Do("<space-system>");
+			}
+			else
+			{
+				systemname=RantEngine.Do("[/[aeiou]/i:<space-system>;[capsinfer:[match]]{a|e|i|o|u}]");
+			}
 
 			if (_usedSystemNames.Contains(systemname))
 			{
 				systemname = PickUniqueSystemName();
+				_systemNameGenerationAttemps++;
 			}
 
+			if (_systemNameGenerationAttemps > 10) throw new Exception();
+
 			_usedSystemNames.Add(systemname);
+			_systemNameGenerationAttemps = 0;
 
 			return systemname;
 		}
