@@ -1,0 +1,50 @@
+﻿=======================================================================================
+PLANET SIZE TYPES DATA FILE
+=======================================================================================
+         Pop    Facil   Cargo  Supply  Ord 
+Tiny     500    5000    2000   5000    5000                 
+Small    1000   10000   4000   10000   10000                  
+Medium   2000   15000   8000   20000   20000                   
+Large    4000   20000   16000  40000   40000                  
+Huge     8000   25000   32000  80000   80000                  
+Ring     32000  100000  128000 320000  320000                    
+Sphere   64000  200000  256000 640000  640000  
+
+Population is in milions  
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Def Tiny
+	Name				=	Tiny
+	Maximum Population	=	500
+EndDef
+
+Def Small
+	Name				=	Small
+	Maximum Population	=	1000
+EndDef
+
+Def Medium
+	Name				=	Medium
+	Maximum Population	=	2000
+EndDef
+
+Def Large
+	Name				=	Large
+	Maximum Population	=	4000
+EndDef
+
+Def Huge
+	Name				=	Huge
+	Maximum Population	=	8000
+EndDef
+
+Def Sphereworld
+	Name				=	Sphereworld
+	Maximum Population	=	64000
+	Is Artificial World	=	true
+EndDef
+=======================================================================================
+*END*
+=======================================================================================

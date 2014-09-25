@@ -1,0 +1,41 @@
+﻿=======================================================================================
+ATMOSPHERE TYPES DATA FILE
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Def None
+	Name								=	None
+	Description							=	No atmosphere
+	Allowed On Planet Physical Types	=	Rock, Ice
+EndDef
+
+Def Oxygen
+	Name								=	Oxygen
+	Description							=	
+	Allowed On Planet Physical Types	=	All
+EndDef
+
+Def Methane
+	Name								=	Methane
+	Description							=	
+	Allowed On Planet Physical Types	=	All
+EndDef
+
+Def Hydrogen
+	Name								=	Hydrogen
+	Description							=	
+	Allowed On Planet Physical Types	=	All
+EndDef
+
+Def Carbon Dioxide
+	Name								=	Carbon Dioxide
+	Description							=	
+	Allowed On Planet Physical Types	=	All
+EndDef
+
+=======================================================================================
+*END*
+=======================================================================================

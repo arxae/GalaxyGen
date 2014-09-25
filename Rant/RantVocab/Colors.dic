@@ -1,0 +1,49 @@
+#name color
+#subtypes default ish
+
+#entry
+	#values red, reddish
+	#classes primary
+#entry
+	#values green, greenish
+	#classes primary
+#entry
+	#values blue, bluish
+	#classes primary
+#entry
+	#values cyan, cyan-ish
+	#classes secondary
+#entry
+	#values magenta, magenta-ish
+	#classes secondary
+#entry
+	#values yellow, yellowish
+	#classes secondary
+#entry
+	#values orange, orangish
+#entry
+	#values purple, purplish
+#entry
+	#values turquoise, turquoise-ish
+#entry
+	#values pink, pinkish
+#entry
+	#values grey, greyish
+#entry
+	#values black, blackish
+#entry
+	#values white, whitish
+#entry
+	#values brown, brownish
+#entry
+	#values lime green, lime-green-ish
+#entry
+	#values lavender, lavenderish
+#entry
+	#values maroon, maroonish
+#entry
+	#values gold, goldish
+#entry
+	#values silver, silverish
+#entry
+	#values crimson, crimsonish

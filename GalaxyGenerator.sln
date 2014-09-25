@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalaxyGeneratorConsole", "GalaxyGeneratorConsole\GalaxyGeneratorConsole.csproj", "{805D91B4-FC11-468B-828D-F8ED1038934B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rant Projects", "Rant Projects", "{269BEFE5-E4DA-4307-BCAD-7540B7BF69C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stringes", "Rant\Stringes\Stringes\Stringes.csproj", "{0C9D057A-967E-4038-92D8-D0B0D29D53A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rant", "Rant\Rant\Rant\Rant.csproj", "{A4B6FD1A-44A6-42D2-B4AA-57BC85D2CDD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Berkin-Release|Any CPU = Berkin-Release|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{805D91B4-FC11-468B-828D-F8ED1038934B}.Berkin-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805D91B4-FC11-468B-828D-F8ED1038934B}.Berkin-Release|Any CPU.Build.0 = Release|Any CPU
+		{805D91B4-FC11-468B-828D-F8ED1038934B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805D91B4-FC11-468B-828D-F8ED1038934B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805D91B4-FC11-468B-828D-F8ED1038934B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805D91B4-FC11-468B-828D-F8ED1038934B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9D057A-967E-4038-92D8-D0B0D29D53A0}.Berkin-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9D057A-967E-4038-92D8-D0B0D29D53A0}.Berkin-Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9D057A-967E-4038-92D8-D0B0D29D53A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9D057A-967E-4038-92D8-D0B0D29D53A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9D057A-967E-4038-92D8-D0B0D29D53A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9D057A-967E-4038-92D8-D0B0D29D53A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B6FD1A-44A6-42D2-B4AA-57BC85D2CDD7}.Berkin-Release|Any CPU.ActiveCfg = Berkin-Release|Any CPU
+		{A4B6FD1A-44A6-42D2-B4AA-57BC85D2CDD7}.Berkin-Release|Any CPU.Build.0 = Berkin-Release|Any CPU
+		{A4B6FD1A-44A6-42D2-B4AA-57BC85D2CDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B6FD1A-44A6-42D2-B4AA-57BC85D2CDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B6FD1A-44A6-42D2-B4AA-57BC85D2CDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B6FD1A-44A6-42D2-B4AA-57BC85D2CDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C9D057A-967E-4038-92D8-D0B0D29D53A0} = {269BEFE5-E4DA-4307-BCAD-7540B7BF69C2}
+		{A4B6FD1A-44A6-42D2-B4AA-57BC85D2CDD7} = {269BEFE5-E4DA-4307-BCAD-7540B7BF69C2}
+	EndGlobalSection
+EndGlobal
